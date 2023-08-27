@@ -16,7 +16,7 @@ const MovieRender = ({ item, id }) => {
         alt={item.title}
       />
       <div className="absolute flex justify-center items-center whitespace-normal top-0 left-1 h-full w-full hover:bg-black/80 opacity-0 hover:opacity-100 z-10 ">
-        <p className="text-[0.9rem] flex justify-center items-center w-[170px] h-full break-all text-center">
+        <p className="text-[0.9rem] flex justify-center items-center w-[170px] h-full break-words text-center">
           {item.title}
         </p>
         <p>
