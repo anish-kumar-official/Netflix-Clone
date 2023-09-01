@@ -13,7 +13,7 @@ const Main = () => {
     });
   }, []);
 
-  //   console.log(popularMovie);
+  console.log(popularMovie);
 
   return (
     <div className="w-full h-full text-white">
@@ -26,6 +26,9 @@ const Main = () => {
         />
         <div className="infoWrapper absolute w-full top-[30%] px-4">
           <div className="text-white text-[2.2rem]">{popularMovie?.title}</div>
+          <div className="rating">
+            Rating : IMDb {popularMovie?.vote_average}
+          </div>
           <div className="mt-2">
             <button className="btnPlayNow px-[15px] py-[8px] text-black bg-white border-none text-[1.2rem] font-bold ">
               Play Now

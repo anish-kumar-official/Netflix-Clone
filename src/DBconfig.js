@@ -6,6 +6,7 @@ const requests = {
   requestUpcoming: `https://api.themoviedb.org/3/movie/upcoming?api_key=${api_key}`,
   requestNowplaying: `https://api.themoviedb.org/3/movie/now_playing?api_key=${api_key}`,
   requestActionMovies: `https://api.themoviedb.org/3/search/movie?query=action&api_key=${api_key}`,
+  requestSearch: `https://api.themoviedb.org/3/search/movie?query=action&api_key=${api_key}`,
 };
 
 export default requests;
